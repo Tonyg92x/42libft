@@ -27,10 +27,10 @@
     <img src="images/42_Logo.svg.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">ft_printf</h3>
+<h3 align="center">libft</h3>
 
   <p align="center">
-    Home made printf function for c/c++ programming. Project of 42 cursus.
+    Home made c library for basic functions. Project of 42 cursus. After every project, I will add new function's to have a good C programming library home made.
   </p>
 </div>
 
