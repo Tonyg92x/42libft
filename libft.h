@@ -6,7 +6,7 @@
 /*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:38:26 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/03 11:06:57 by aguay            ###   ########.fr       */
+/*   Updated: 2021/11/08 10:50:35 by aguay            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ int		ft_isdigit(int character);
 // Fonction data convertion
 int		ft_atoi(const char *str);
 char	*ft_itoa(int n);
+char	*ft_utoa(unsigned int n);
 
 // Fonction string manipulation
 size_t	ft_strlen(const char *str);

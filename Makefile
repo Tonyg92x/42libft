@@ -4,7 +4,7 @@ SCRS		= ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strl
 
 OBJS		= ${SCRS:.c=.o}
 
-BONUS		= ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstdelone.c ft_lstclear.c ft_lstadd_back.c ft_lstmap.c ft_lstiter.c ft_putnbr_unsigned_fd.c ft_print_chars.c ft_print_dui.c ft_puthex.c ft_printf.c
+BONUS		= ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstdelone.c ft_lstclear.c ft_lstadd_back.c ft_lstmap.c ft_lstiter.c ft_putnbr_unsigned_fd.c ft_print_chars.c ft_print_dui.c ft_puthex.c ft_printf.c ft_utoa.c
 
 BONUS_OBJS	= $(BONUS:.c=.o)
 
@@ -12,7 +12,7 @@ CFLAGS		= -c -Wall -Werror -Wextra
 
 CC			= cc
 
-RM			= rm -f
+RM			= rm -rf
 
 .c.o:
 			${CC}  ${CFLAGS} -c $< -o ${<:.c=.o}
