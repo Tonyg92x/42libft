@@ -30,7 +30,7 @@
 <h3 align="center">libft</h3>
 
   <p align="center">
-    Home made c library for basic functions. Project of 42 cursus. After every project, I will add new function's to have a good C programming library home made.
+    Home made c library for basic functions. Project of 42 cursus. After every project, I will add new function's to increase the library power.
   </p>
 </div>
 
