@@ -30,7 +30,7 @@
 <h3 align="center">libft</h3>
 
   <p align="center">
-    Home made c library for basic functions. Project of 42 cursus. After every project, I will add new function's to increase the library power.
+    Home made c library for basic functions (Project of 42 cursus). After every project, I will add new function's to increase the library power.
   </p>
 </div>
 
@@ -58,9 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 <p align="center">
-  This is a 42 project to learn c programming. The goal is to remake a printf function with basic input. The printf function is simple, if print a string in the console. The difficulty here is that you can send multiple arguments. Every time you add a % in the first argument (string), the character folowing the % indicate wich datatype to enter. Here is the possibilities of data type : %c for char , %s for strings , %i , %d for int , %u for uinsigned int , %x/X for hexadicimal , %p for pointers , %% for printing a %. A good example of usage would be : printf("hi you %s %c", "name", '?'); It is possible to use variable instead of writing the output.
- <p align  ="center">
-   The project was done fast, so I did not do bonuses and a complexe makefile with multiple folders.
+  This is a 42 project to learn c programming. The goal is to remake a basic library for C programming.
 
  <!-- INSTALLATION -->
 ## Installation
