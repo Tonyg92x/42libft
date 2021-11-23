@@ -27,10 +27,10 @@
     <img src="images/42_Logo.svg.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">ft_printf</h3>
+<h3 align="center">libft</h3>
 
   <p align="center">
-    Home made printf function for c/c++ programming. Project of 42 cursus.
+    Home made c library for basic functions (Project of 42 cursus). After every project, I will add new function's to increase the library power.
   </p>
 </div>
 
@@ -58,20 +58,19 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 <p align="center">
-  This is a 42 project to learn c programming. The goal is to remake a printf function with basic input. The printf function is simple, if print a string in the console. The difficulty here is that you can send multiple arguments. Every time you add a % in the first argument (string), the character folowing the % indicate wich datatype to enter. Here is the possibilities of data type : %c for char , %s for strings , %i , %d for int , %u for uinsigned int , %x/X for hexadicimal , %p for pointers , %% for printing a %. A good example of usage would be : printf("hi you %s %c", "name", '?'); It is possible to use variable instead of writing the output.
- <p align  ="center">
-   The project was done fast, so I did not do bonuses and a complexe makefile with multiple folders.
+  This is a 42 project to learn c programming. The goal is to remake a basic library for C programming.
 
  <!-- INSTALLATION -->
 ## Installation
 ```markdown
-git@github.com:Tonyg92x/42printf.git
+git@github.com:Tonyg92x/42libft.git
 ```
  
  <!-- CORRECTIONS -->
 ## Corrections
 <p align="center">
-  For the project, before getting corrected by our peers and system, we are welcome to test our projects. I used Tripouille tester (https://github.com/Tripouille/printfTester) and paulo-santana tester (https://github.com/paulo-santana/ft_printf_tester). In the future the project may change and these tester may be outdated. 
+  For the project, before submetting my project, I used Tripouille tester (https://github.com/Tripouille/libftTester) , 
+alelievr tester (https://github.com/alelievr/libft-unit-test) and ska42 war-machine tester (https://github.com/ska42/libft-war-machine) to test multiple input. In the future the project may change and these tester may be outdated. 
 
 <!-- Authors -->
 ## Authors
