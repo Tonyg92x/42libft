@@ -6,7 +6,7 @@
 /*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/20 14:52:44 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/04 15:15:12 by aguay            ###   ########.fr       */
+/*   Updated: 2021/11/23 12:38:17 by aguay            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,17 +35,12 @@ static char	*positif(char *retour, int n)
 	i_retour = 0;
 	while (n > 0)
 	{
-		str[i] = (n % 10) + 48;
+		str[i++] = (n % 10) + 48;
 		n = n / 10;
-		i++;
 	}
 	i--;
 	while (i >= 0)
-	{
-		retour[i_retour] = str[i];
-		i--;
-		i_retour++;
-	}
+		retour[i_retour++] = str[i--];
 	retour[i_retour] = '\0';
 	return (retour);
 }
@@ -61,9 +56,8 @@ static char	*negatif(char *retour, int n)
 	retour[i_retour++] = '-';
 	while (n > 0)
 	{
-		str[i] = (n % 10) + 48;
+		str[i++] = (n % 10) + 48;
 		n = n / 10;
-		i++;
 	}
 	while (i-- > 0)
 		retour[i_retour++] = str[i];

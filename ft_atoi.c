@@ -6,7 +6,7 @@
 /*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:35:40 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/30 09:52:26 by aguay            ###   ########.fr       */
+/*   Updated: 2021/11/23 12:32:46 by aguay            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,10 @@ static	int	how_much_digit(const char *str)
 
 	i = 0;
 	retour = 0;
-	while (str[i])
+	while (str[i++])
 	{
 		if (ft_isdigit(str[i]))
 			retour++;
-		i++;
 	}
 	return (retour);
 }
@@ -39,7 +38,8 @@ static int	long_fix(const char *str)
 	return (2);
 }
 
-//	Convert char* to int
+//	Convert a string containing an integer number
+//	to an integer.
 int	ft_atoi(const char *str)
 {
 	int	count;
