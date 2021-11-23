@@ -30,7 +30,7 @@
 <h3 align="center">libft</h3>
 
   <p align="center">
-    Home made c library for basic functions (Project of 42 cursus). After every project, I will add new function's to increase the library power.
+    Home made c library for basic functions.
   </p>
 </div>
 
@@ -58,7 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 <p align="center">
-  This is a 42 project to learn c programming. The goal is to remake a basic library for C programming.
+  This is a 42 project to learn c programming. The goal is to remake a basic library for C programming. After every project, new fonctions will get added to this library to have a rich C programming library at the end of my cursus at 42.
 
  <!-- INSTALLATION -->
 ## Installation
