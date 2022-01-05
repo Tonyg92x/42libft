@@ -89,9 +89,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	temp[1000];
 	char	*retour;
-	int		i;
 
-	i = 0;
 	if (!s1)
 		return (NULL);
 	ft_strlcpy(temp, s1, ft_strlen(s1) + 1);
