@@ -56,7 +56,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 <p align="center">
   This is a 42 project to learn c programming. The goal is to remake a basic library for C programming. After every project, new fonctions will get added to this library to have a rich C programming library at the end of my cursus at 42.
 
