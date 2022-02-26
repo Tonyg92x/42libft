@@ -75,46 +75,61 @@ git clone git@github.com:Tonyg92x/42libft.git
  
   <h3>ft_itoa</h3>
   Take the integer entered and put the value in a string as multiple characters.
+  
   <h3>ft_utoa</h3>
   Take the unsigned int entered and put it's char value in a string. The string returned is allocated with malloc so don't forget to free it.
+  
   <h3>ft_atol</h3>
   Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
   
 <!-- STRING-MANIPULATION -->
 ## String-manipulation
 <p align="left">
-  <h3>ft_atoi</h3>
-  Convert a string containing an integer number to an integer.
-  <h3>ft_itoa</h3>
-  Take the integer entered and put the value in a string as multiple characters.
-  <h3>ft_utoa</h3>
-  Take the unsigned int entered and put it's char value in a string. The string returned is allocated with malloc so don't forget to free it.
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
-  <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
+  <h3>ft_toupper</h3>
+  Put the letter entered in uppercase. If it's already uppercase or it isnt a letter, do nothing.
+  
+  <h3>ft_tolower</h3>
+  Put the letter entered in lowercase. If it's already in lowercase or it isnt a letter, do nothing.
+  
+  <h3>ft_strlen</h3>
+  Return the length of the strin entered.
+  
+  <h3>ft_strchr</h3>
+  Return a pointer of the first occurence of c in s else return NULL.
+  
+  <h3>ft_strrchr</h3>
+  Locate the last occurence of c in the string pointed by s. The '\0' is considered a part of the string so if c = '\0' the function locate the terminating '\0'.
+  
+  <h3>ft_strlcpy</h3>
+  Copy char's from src to dest (size time) and put '\0' the end.
+  
+  <h3>ft_strlcat</h3>
+  Put the string src at the end of string dst. Return the size of the dst string>
+
+  <h3>ft_strncmp</h3>
+  Compare s1 with s2 for n character. Return 0 if it's the same, if not return the s1 - s2 value of the dif.
+  
+  <h3>ft_strnstr</h3>
+  Look for a string (needle) instide the other string (haystack). Return the pointer to the start of the needle, otherwise return NULL. 
+  
+  <h3>ft_substr</h3>
+  Return a new string, that has the content of s string, starting at the start argument as index. The new string is allocated with malloc so don't forget to free it.
+
+  <h3>ft_strjoin</h3>
+  Join s1 and s2 strings together. The value return is allocated with the malloc fonction so don't forget to free.
+  
+  <h3>ft_strtrim</h3>
+  Remove every character (that is in set) of the s1 string. Return a new string with the result allocated with malloc, so don't forget to free it.
+  
+  <h3>ft_split</h3>
+  Split the string between c character in multiple strings. The return is a pointer that has every pointer of every string made. The memory is allocated by malloc, in 2D so don't forget to ft_free2d.
+
+  <h3>ft_striteri</h3>
+  Pass the s string into the f fonction.
+  
+  <h3>ft_strmapi</h3>
+  Pass every character of the string s in the f contion. Return the result in a allocated string using malloc, so don't forget to free.
+
   
 <!-- MEMORY-ALLOCATION -->
 ## Memory-allocation
