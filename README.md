@@ -33,7 +33,7 @@
       <a href="#String-manipulation">String-manipulation</a>
     </li>
     <li>
-      <a href="#Memory-allocation">Memory-allocation</a>
+      <a href="#Memory-management">Memory-management</a>
     </li>
     <li>
       <a href="#Memory-manipulation">Memory-manipulation</a>
@@ -134,11 +134,17 @@ git clone git@github.com:Tonyg92x/42libft.git
   Pass every character of the string s in the f contion. Return the result in a allocated string using malloc, so don't forget to free.
 </details>
   
-<!-- MEMORY-ALLOCATION -->
-## Memory-allocation
+<!-- MEMORY-management
+## Memory-management
 <details>
   <summary>Fonctions</summary>
   
+ <h3>ft_calloc</h3>
+   Allocate memory with the malloc fonction; allocate size (in byte) * count (nomber of element). Put the value '\0' on everything after.
+
+ <h3>ft_free2d</h3>
+  Free every adresse entered in the pointer of pointers, then free the pointer of pointers. 
+
 </details>
 
 <!-- MEMORY_MANIPULATION -->
@@ -146,12 +152,42 @@ git clone git@github.com:Tonyg92x/42libft.git
 <details>
   <summary>Fonctions</summary>
   
+  <h3>ft_memset</h3>
+  Write len number of time of value c in the string b.
+  
+  <h3>ft_bzero</h3>
+  Put the value '\0' n time in the pointer entered.
+  
+  <h3>ft_memcpy</h3>
+  Copy n bytes of src pointer into dst pointer. Return the pointer to the dst pointer. Protected from overlaping.
+  
+  <h3>ft_memmove</h3>
+  Same as memcpy, but it is not protected from overlaping.
+  
+  <h3>ft_memcmp</h3>
+  Compare the value of the first index of s1 with the same index of s2. Return 0 if they are the same, and s1[byte] - s2[byte] otherwise.
+  
+  <h3>ft_memcmp</h3>
+  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
+  
 </details>
   
 <!-- FILE-DESCRIPTOR-TOOLS -->
 ## File-descriptor-tools
 <details>
   <summary>Fonctions</summary>
+  
+  <h3>ft_memcmp</h3>
+  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
+  
+  <h3>ft_memcmp</h3>
+  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
+  
+  <h3>ft_memcmp</h3>
+  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
+  
+  <h3>ft_memcmp</h3>
+  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
   
 </details>
   
