@@ -72,6 +72,12 @@ git clone git@github.com:Tonyg92x/42libft.git
 <p align="left">
   <h3>ft_atoi</h3>
   Convert a string containing an integer number to an integer.
+  <h3>ft_itoa</h3>
+  Take the integer entered and put the value in a string as multiple characters.
+  <h3>ft_utoa</h3>
+  Take the unsigned int entered and put it's char value in a string. The string returned is allocated with malloc so don't forget to free it.
+  <h3>ft_atol</h3>
+  Take the integer entered and convert it into a long variable. (It's pretty usefull to test integer limits)
   
 <!-- STRING-MANIPULATION -->
 ## String-manipulation
