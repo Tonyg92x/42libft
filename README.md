@@ -67,6 +67,7 @@
 
  <!-- INSTALLATION -->
 ## Installation
+  allo
 ```markdown
 git clone git@github.com:Tonyg92x/42libft.git
 ```
@@ -75,16 +76,16 @@ git clone git@github.com:Tonyg92x/42libft.git
 <details>
   <summary>Fonctions</summary>
   <h3>ft_atoi</h3>
-  Convert a string containing an integer number to an integer.
+  Convert a string containing an integer to an integer.
  
   <h3>ft_itoa</h3>
-  Take the integer entered and put the value in a string as multiple characters.
+  Take the integer entered and put the value in a string. The string returned is allocated with malloc so don't forget to free it.
   
   <h3>ft_utoa</h3>
   Take the unsigned int entered and put it's char value in a string. The string returned is allocated with malloc so don't forget to free it.
   
   <h3>ft_atol</h3>
-  Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
+  Take a string containing a number and convert it into a long variable (It's pretty usefull to test integer limits).
 </details>
   
 <!-- STRING-MANIPULATION -->
