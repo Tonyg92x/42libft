@@ -1,22 +1,4 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -45,6 +27,9 @@
       <a href="#installation">Installation</a>
     </li>
     <li>
+      <a href="#ft_atoi">ft_atoi</a>
+    </li>
+    <li>
       <a href="#Corrections">Corrections</a>
     </li>
     <li>
@@ -59,6 +44,9 @@
 <p align="center">
   This is a 42 project to learn c programming. The goal is to remake a basic library for C programming. After every project, new fonctions will get added to this library to have a rich C programming library at the end of my cursus at 42.
 
+<!-- FT_ATOI -->
+ <p align="center">
+   ft_atoi.c
  <!-- INSTALLATION -->
 ## Installation
 ```markdown
