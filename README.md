@@ -179,6 +179,12 @@
 <p align="left">
   This is my c programming language library. Almost every fonction in it is made by myself. I want to update it with fonction that I used in programs that might be usefull in other situations.
 
+ <!-- INSTALLATION -->
+## Installation
+```markdown
+git clone git@github.com:Tonyg92x/42libft.git
+```
+
 <!-- FT_ATOI -->
  ## ft_atoi
  <p align="left">
@@ -408,12 +414,6 @@
  ## ft_utoa
  <p align="left">
    Take the unsigned int entered and put it's char value in a string. The string returned is allocated with malloc so don't forget to free it.
-
- <!-- INSTALLATION -->
-## Installation
-```markdown
-git clone git@github.com:Tonyg92x/42libft.git
-```
  
  <!-- CORRECTIONS -->
 ## Corrections
