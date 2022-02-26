@@ -42,7 +42,7 @@
       <a href="#ft_isalnum">ft_isalnum</a>
     </li>    
     <li>
-      <a href="#ft_isaplha">ft_isalpha</a>
+      <a href="#ft_isalpha">ft_isalpha</a>
     </li>
         <li>
       <a href="#ft_isascii">ft_isacii</a>
