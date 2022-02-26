@@ -224,6 +224,186 @@
  <p align="center">
    xxxxx
 
+<!-- FT_ITOA -->
+ ## ft_itoa
+ <p align="center">
+   xxxxx
+   
+<!-- FT_ITOL -->
+ ## ft_itol
+ <p align="center">
+   xxxxx
+   
+<!-- FT_MEMCHR -->
+ ## ft_memchr
+ <p align="center">
+   xxxxx
+
+<!-- FT_MEMCMP -->
+ ## ft_memcmp
+ <p align="center">
+   xxxxx
+   
+<!-- FT_MEMCPY -->
+ ## ft_memcpy
+ <p align="center">
+   xxxxx
+   
+<!-- FT_MEMMOVE -->
+ ## ft_memmove
+ <p align="center">
+   xxxxx
+   
+<!-- FT_MEMSET -->
+ ## ft_memset
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PRINT_CHARS -->
+ ## ft_print_chars
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PRINT_DUI -->
+ ## ft_print_dui
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUSH -->
+ ## ft_push
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUTCHAR_FD -->
+ ## ft_putchar_fd
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUTENDL_FD -->
+ ## ft_putendl_fd
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUTHEX -->
+ ## ft_puthex
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUTNBR_FD -->
+ ## ft_putnbr_fd
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUTNBR_UNSIGNED_FD -->
+ ## ft_isprint
+ <p align="center">
+   xxxxx
+   
+<!-- FT_PUTSTR_FD -->
+ ## ft_putstr_fd
+ <p align="center">
+   xxxxx
+   
+<!-- FT_REVERSE_ROTATE -->
+ ## ft_reverse_rotate
+ <p align="center">
+   xxxxx
+   
+<!-- FT_ROTATE -->
+ ## ft_rotate
+ <p align="center">
+   xxxxx
+   
+<!-- FT_SPLIT -->
+ ## ft_split
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRCHR -->
+ ## ft_strchr
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRDUP -->
+ ## ft_strdup
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRITERI -->
+ ## ft_striteri
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRJOIN -->
+ ## ft_strjoin
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRLCAT -->
+ ## ft_strlcat
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRLCPY -->
+ ## ft_strlcpy
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRLEN -->
+ ## ft_strlen
+ <p align="center">
+   xxxxx
+   
+ <!-- FT_STRMAPI -->
+ ## ft_strmapi
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRNCMP -->
+ ## ft_strncmp
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRNSTR -->
+ ## ft_strnstr
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRRCHR -->
+ ## ft_strrchr
+ <p align="center">
+   xxxxx
+   
+<!-- FT_STRTRIM -->
+ ## ft_strtrim
+ <p align="center">
+   xxxxx
+   
+<!-- FT_SUBSTR -->
+ ## ft_substr
+ <p align="center">
+   xxxxx
+   
+<!-- FT_SWAP -->
+ ## ft_swap
+ <p align="center">
+   xxxxx
+   
+<!-- FT_TOLOWER -->
+ ## ft_tolower
+ <p align="center">
+   xxxxx
+   
+<!-- FT_TOUPPER -->
+ ## ft_toupper
+ <p align="center">
+   xxxxx
+   
+<!-- FT_UTOA -->
+ ## ft_utoa
+ <p align="center">
+   xxxxx
+
  <!-- INSTALLATION -->
 ## Installation
 ```markdown
