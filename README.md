@@ -108,6 +108,9 @@ git clone git@github.com:Tonyg92x/42libft.git
   
   <h3>ft_strlcat</h3>
   Put the string src at the end of string dst. Return the size of the dst string>
+  
+  <h3>ft_strdup</h3>
+  Allocate exactly the right amount of space src string into an other string using the malloc fonction. Don't forget to free. (Usefull if you want to use the less amount of memory possible.
 
   <h3>ft_strncmp</h3>
   Compare s1 with s2 for n character. Return 0 if it's the same, if not return the s1 - s2 value of the dif.
@@ -134,7 +137,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   Pass every character of the string s in the f contion. Return the result in a allocated string using malloc, so don't forget to free.
 </details>
   
-<!-- MEMORY-management
+<!-- MEMORY-management -->
 ## Memory-management
 <details>
   <summary>Fonctions</summary>
@@ -169,7 +172,6 @@ git clone git@github.com:Tonyg92x/42libft.git
   
   <h3>ft_memcmp</h3>
   Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
-  
 </details>
   
 <!-- FILE-DESCRIPTOR-TOOLS -->
@@ -177,23 +179,39 @@ git clone git@github.com:Tonyg92x/42libft.git
 <details>
   <summary>Fonctions</summary>
   
-  <h3>ft_memcmp</h3>
-  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
+  <h3>ft_putchar_fd</h3>
+  Write the character c in the fd entered.
+
+  <h3>ft_putnbr_fd</h3>
+  Fonction that write the integer entered in the fd entered.
   
-  <h3>ft_memcmp</h3>
-  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
+  <h3>ft_putnbr_unsigned_fd</h3>
+  Fonction that write the unsigned integer entered in the fd entered.
   
-  <h3>ft_memcmp</h3>
-  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
-  
-  <h3>ft_memcmp</h3>
-  Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
-  
+  <h3>ft_putstr_fd</h3>
+  Fonction that write the string entered in the fd entered.
+
+  <h3>ft_putendl_fd</h3>
+  Write the string s in the fd entered, then put a new line at the end.
 </details>
   
 <!-- CHARACTER-VALIDATION -->
 ## Character-validation
 <details>
+  <h3>ft_isdigit</h3>
+  Return 1 (true) if the character entered is a number. Return 0 (false) otherwise.
+  
+  <h3>ft_isalpha</h3>
+  Return 1 (true) if the character entered is a letter. Return 0 (false) otherwise.  
+  
+  <h3>ft_isalnum</h3>
+  Return 1 (true) if the character entered is a letter or a digit. Return 0 (false) otherwise.
+  
+  <h3>ft_isascii</h3>
+  Return 1 (true) if the character entered is in the ASCII table. Return 0 (false) otherwise.  
+  
+  <h3>ft_isprint</h3>
+  Return 1 (true) if the character entered is printable. Return 0 (false) otherwise.
   <summary>Fonctions</summary>
   
 </details>
@@ -203,8 +221,37 @@ git clone git@github.com:Tonyg92x/42libft.git
 <details>
   <summary>Fonctions</summary>
   
+ <h3>ft_printf</h3>
+  Home made printf fonction. Git Repo : https://github.com/Tonyg92x/42printf
+  
+<h3>ft_print_chars</h3>
+  Fonction that is used by printf to print characters.
+  
+<h3>ft_print_dui</h3>
+  Fonction that is used by printf to print integers.
+  
+<h3>ft_puthex</h3>
+  Fonction that is used by printf to print hexadecimals values.
 </details>
  
+<!-- LINKED_LIST -->
+## Linked-list
+<details>
+  <summary>Fonctions</summary>
+  
+ <h3>ft_push</h3>
+  Fonction's used in the push_swap program. Linked lists fonctions, might be usefull later. Need to update for project that can use more then 2 lists.
+  
+<h3>ft_rotate</h3>
+  Linked list fonction that shift up every element in a list. The first element become the last one. Might need to update it.
+  
+<h3>ft_reverse_rotate</h3>
+   Linked list fonction that shift down every element in a list. The last element become the first one. Might need to update it.
+
+<h3>ft_swap</h3>
+  Linked-listed fonction that swap the first element of a list with the second. Might need to update it.
+</details>
+
  <!-- CORRECTIONS -->
 ## Corrections
 <p align="left">
