@@ -102,7 +102,7 @@
       <a href="#ft_putnbr_unsigned_fd">ft_putnbr_unsigned_fd</a>
     </li>
     <li>
-      <a href="#ft_putset_fd">ft_putset_fd</a>
+      <a href="#ft_putstr_fd">ft_putstr_fd</a>
     </li>
     <li>
       <a href="#ft_reverse_rotate">ft_reverse_rotate</a>
@@ -300,7 +300,7 @@
    xxxxx
    
 <!-- FT_PUTNBR_UNSIGNED_FD -->
- ## ft_isprint
+ ## ft_putnbr_unsigned_fd
  <p align="center">
    xxxxx
    
