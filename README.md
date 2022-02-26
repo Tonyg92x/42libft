@@ -269,6 +269,11 @@
  <p align="center">
    xxxxx
    
+<!-- FT_PRINTF -->
+ ## ft_printf
+ <p align="center">
+   xxxxx
+   
 <!-- FT_PUSH -->
  ## ft_push
  <p align="center">
