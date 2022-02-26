@@ -45,8 +45,10 @@
   This is a 42 project to learn c programming. The goal is to remake a basic library for C programming. After every project, new fonctions will get added to this library to have a rich C programming library at the end of my cursus at 42.
 
 <!-- FT_ATOI -->
+ ## ft_atoi
  <p align="center">
    ft_atoi.c
+
  <!-- INSTALLATION -->
 ## Installation
 ```markdown
