@@ -98,7 +98,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   Put the letter entered in lowercase. If it's already in lowercase or it isnt a letter, do nothing.
   
   <h3>ft_strlen</h3>
-  Return the length of the strin entered.
+  Return the length of the string entered.
   
   <h3>ft_strchr</h3>
   Return a pointer of the first occurence of c in s else return NULL.
@@ -110,7 +110,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   Copy char's from src to dest (size time) and put '\0' the end.
   
   <h3>ft_strlcat</h3>
-  Put the string src at the end of string dst. Return the size of the dst string>
+  Put the string src at the end of string dst. Return the size of the dst string.
   
   <h3>ft_strdup</h3>
   Allocate exactly the right amount of space src string into an other string using the malloc fonction. Don't forget to free. (Usefull if you want to use the less amount of memory possible.
@@ -173,7 +173,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   <h3>ft_memcmp</h3>
   Compare the value of the first index of s1 with the same index of s2. Return 0 if they are the same, and s1[byte] - s2[byte] otherwise.
   
-  <h3>ft_memcmp</h3>
+  <h3>ft_memchr</h3>
   Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
 </details>
   
