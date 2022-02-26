@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstsize.c                                       :+:      :+:    :+:   */
+/*   ft_free2d.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/30 08:44:56 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/04 13:53:25 by aguay            ###   ########.fr       */
+/*   Created: 2021/11/24 09:25:02 by aguay             #+#    #+#             */
+/*   Updated: 2022/02/26 08:23:49 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Compte et revoi le nombre d'élément
-//	de la list.
-int	ft_lstsize(t_list *lst)
+void	ft_free2d(char **string)
 {
-	t_list	*temp;
-	int		retour;
+	int	i;
 
-	if (!lst)
-		return (0);
-	retour = 1;
-	temp = lst;
-	while (temp->next != NULL)
+	i = 0;
+	while (string[i] != NULL)
 	{
-		retour++;
-		temp = temp->next;
+		free(string[i]);
+		i++;
 	}
-	return (retour);
+	free(string);
 }
