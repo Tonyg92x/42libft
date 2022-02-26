@@ -110,7 +110,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   Copy char's from src to dest (size time) and put '\0' the end.
   
   <h3>ft_strlcat</h3>
-  Put the string src at the end of string dst. Return the size of the dst string>
+  Put the string src at the end of string dst. Return the size of the dst string.
   
   <h3>ft_strdup</h3>
   Allocate exactly the right amount of space src string into an other string using the malloc fonction. Don't forget to free. (Usefull if you want to use the less amount of memory possible.
