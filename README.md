@@ -70,6 +70,7 @@ git clone git@github.com:Tonyg92x/42libft.git
 <!-- DATA-CONVERSION -->
 ## Data-conversion
 <p align="left">
+<details>
   <h3>ft_atoi</h3>
   Convert a string containing an integer number to an integer.
  
@@ -81,6 +82,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   
   <h3>ft_atol</h3>
   Take the integer entered and convert it into a long variable (It's pretty usefull to test integer limits).
+</details>
   
 <!-- STRING-MANIPULATION -->
 ## String-manipulation
