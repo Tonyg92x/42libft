@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:05 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/27 10:32:55 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:30:20 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Copies len bytes from sting src to dst. The two string may overlap.
+//	Same as memcpy, but it is not protected from overlaping.
 void	*ft_memmove(void *destination, const void *source, size_t size)
 {
 	char	*dst;

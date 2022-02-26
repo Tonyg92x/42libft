@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_utoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/20 14:52:44 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/08 10:50:15 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:34:28 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,10 +74,8 @@ static char	*limit_check(unsigned int n)
 	return (NULL);
 }
 
-//	NE PAS OUBLIER DE FREE
-//	Alloue et retourne une chaine de 
-//	caractere reprèsentant l'integer 
-//	recu en argument.
+//	Take the unsigned int entered and put it's char value in a string.
+//	The string returned is allocated with malloc so don't forget to free it.
 char	*ft_utoa(unsigned int n)
 {
 	char	*retour;

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:35:51 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/28 13:54:39 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:32:04 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Place value '\0' n time.
+//	Put the value '\0' n time in the pointer entered.
 void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, 0, n);

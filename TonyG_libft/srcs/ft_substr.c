@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 15:38:32 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/04 13:39:28 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:39:41 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ static char	*start_bigger(void)
 	return (str);
 }
 
-//	NE PAS OUBLIER DE FREE
-//	Alloue avec malloc et retourne une chaine de caractères
-//	issue de la chaine 's'. Le nouvel index commence à start.
+//	Return a new string, that has the content of s string, starting
+//	at the start argument as index. The new string is allocated with
+//	malloc so don't forget to free it.
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	unsigned int	count;

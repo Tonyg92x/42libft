@@ -3,17 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:36:00 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/28 14:03:03 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:42:15 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	NE PAS OUBLIER DE FREE
-//	Allocate size(byte) * count with malloc
+//	Allocate memory with the malloc fonction; allocate size
+//	(in byte) * count (nomber of element). Put the value '\0'
+//	on everything after.
 void	*ft_calloc(size_t count, size_t size)
 {
 	char	*ptr;

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:20 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/21 15:31:29 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:37:23 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Return a pointer to the first occurence of c in s else return NULL pointer.
+//	Return a pointer of the first occurence of c in s else return NULL.
 char	*ft_strchr(const char *s, int c)
 {
 	int	len;

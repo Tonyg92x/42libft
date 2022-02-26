@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:34:35 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/04 14:23:53 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:39:57 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	NE PAS OUBLIER FREE
-//	Alloue avec malloc et retourne une nouvelle chaine, résultat
-//	de la concaténation de s1 et s2.
+//	Join s1 and s2 strings together. The value return is allocated
+//	with the malloc fonction so don't forget to free.
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*retour;

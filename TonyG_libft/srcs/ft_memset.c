@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:15 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/28 14:03:51 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:29:44 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	write len bytes of value c in the string b.
+//	Write len number of time of value c in the string b.
 void	*ft_memset(void *b, int c, size_t len)
 {
 	size_t	count;

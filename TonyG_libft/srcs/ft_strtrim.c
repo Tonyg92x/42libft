@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/20 08:27:49 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/05 08:56:39 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:40:28 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,9 +82,9 @@ static bool	chech_only_set(char const *temp, char const *set)
 	return (true);
 }
 
-// NE PAS OUBLIER DE FREE
-// Enlveve tous les charactères dans set de s1.
-// Renvoie une nouvelle string avec la modification.
+//	Remove every character (that is in set) of the s1 string.
+//	Return a new string with the result allocated with malloc,
+//	so don't forget to free it.
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	temp[1000];

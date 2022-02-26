@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/21 14:10:15 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/01 10:05:48 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:43:17 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ static bool	ft_limit_test(int n, int fd)
 	return (false);
 }
 
+//	Fonction that write the integer entered in the fd entered.
 void	ft_putnbr_fd(int n, int fd)
 {
 	char	str[13];

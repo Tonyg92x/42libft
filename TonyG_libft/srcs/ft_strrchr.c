@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/16 12:44:49 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/27 10:33:47 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:37:41 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Locate the last occurence of c in the string pointed by s
-//	The '\0' is considered a part of the string so if c = '\0'
-//	the function locate the terminating '\0'
+//	Locate the last occurence of c in the string pointed
+//	by s. The '\0' is considered a part of the string so
+//	if c = '\0' the function locate the terminating '\0'.
 char	*ft_strrchr(const char *s, int c)
 {
 	size_t	len;

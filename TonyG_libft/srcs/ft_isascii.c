@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:36:33 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/21 15:30:59 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:33:04 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Return 1 if char is in the ASCII table, 0 if not
+//	Return 1 (true) if the character entered is in the ASCII table. Return 0 (false) otherwise.
 int	ft_isascii(int c)
 {
 	if (c < 0 || c > 127)

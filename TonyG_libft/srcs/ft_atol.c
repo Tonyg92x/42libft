@@ -1,7 +1,8 @@
 
 #include "libft.h"
 
-//	Switch the string in a long variable
+//	Take the integer entered and convert it into a 
+//	long variable (It's pretty usefull to test integer limits).
 long int	ft_atol(char	*string)
 {
 	long int	retour;

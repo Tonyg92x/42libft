@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/21 14:05:11 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/29 11:17:36 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:43:33 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+//	Write the string s in the fd entered, then put a new line at the end.
 void	ft_putendl_fd(char *s, int fd)
 {
 	char	c;

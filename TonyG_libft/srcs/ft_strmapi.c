@@ -3,19 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/21 08:48:04 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/29 11:14:54 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:41:22 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	NE PAS OUBLIER DE MALLOC
-//	Applique la fonction f a chaque caractère de la string s
-//	et retourne une copie de la string s avec chaque caractere
-//	passer dans la fonction f.
+//	Pass every character of the string s in the f contion. Return
+//	the result in a allocated string using malloc, so don't forget to free.
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;

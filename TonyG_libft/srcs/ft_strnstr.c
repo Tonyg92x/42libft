@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:51 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/30 11:12:39 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:39:18 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ static bool	needle_present(char *str, char *need)
 	return (true);
 }
 
-//	Look for needle str in haystack for len. If needle is there,
-//	return a pointer to it else return NULL pointer.
+//	Look for a string (needle) instide the other string (haystack).
+//	Return the pointer to the start of the needle, otherwise return NULL.
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	char	*str;

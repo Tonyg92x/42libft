@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:25 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/28 09:15:45 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:41:48 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	NE PAS OUBLIER DE FREE
-//	Allocate exactly the right space of src string
-//	into an other string using malloc.
+//	Allocate exactly the right amount of space src string
+//	into an other string using the malloc fonction. Don't
+//	forget to free. (Usefull if you want to use the less
+//	amount of memory possible.
 char	*ft_strdup(const char *src)
 {
 	int		count;	

@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:41 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/04 10:19:27 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:36:20 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// Return length of str.
+// Return the length of the string entered.
 size_t	ft_strlen(const char *str)
 {
 	int	count;

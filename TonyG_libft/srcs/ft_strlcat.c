@@ -3,15 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:32 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/28 09:23:23 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:38:32 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+//	Put the string src at the end of string dst. Return the
+//	size of the dst string.
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	x;

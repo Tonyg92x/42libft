@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_puthex.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:18:48 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/03 11:03:50 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:44:20 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,9 +74,7 @@ static void	ft_print_p(char *base, unsigned long long p, int *ratour)
 	}
 }
 
-//	Fonction utiliser dans ft_printf pour ecrire 
-//	soit un hexadecimal au minuscule, majuscule ou
-//	un pointeur.
+//	Fonction that is used by printf to print hexadecimals values.
 int	ft_puthex(va_list s, int count, char type, int *ratour)
 {
 	char				*base;

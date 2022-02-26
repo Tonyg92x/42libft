@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:36:39 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/24 10:15:21 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:32:23 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Return 1 if char is a number, 0 if not.
+//	Return 1 (true) if the character entered is a number. Return 0 (false) otherwise.
 int	ft_isdigit(int character)
 {
 	if (character > 47 && character < 58)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_chars.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 14:13:22 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/03 11:04:02 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:44:34 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,7 @@ static void	ft_print_s(va_list s, int *retour)
 	}
 }
 
-//	Fonction utile au printf. Permet d'imprimer soit
-//	un charactere, soit une string, soit un %.
+//	Fonction that is used by printf to print characters.
 int	ft_print_chars(va_list s, int count, char type, int *retour)
 {
 	if (type == '%')

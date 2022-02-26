@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:35:40 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/23 12:32:46 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:33:45 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,7 @@ static int	long_fix(const char *str)
 	return (2);
 }
 
-//	Convert a string containing an integer number
-//	to an integer.
+//	Convert a string containing an integer number to an integer.
 int	ft_atoi(const char *str)
 {
 	int	count;

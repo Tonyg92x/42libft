@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/20 09:30:21 by aguay             #+#    #+#             */
-/*   Updated: 2021/10/05 11:21:02 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:40:54 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,10 +89,10 @@ static void	retour_fil(char **retour, const char *s, char c)
 	}
 }
 
-//	NE PAS OUBLIER DE FREE EN 2D
-//	Sépare la string s en plusieurs string
-//	en utilisant c comme délimiteur. Le
-//	tableau se termine pas NULL
+//	Split the string between c character in multiple strings.
+//	The return is a pointer that has every pointer of every
+//	string made. The memory is allocated by malloc, in 2D so
+//	don't forget to ft_free2d.
 char	**ft_split(char const *s, char c)
 {
 	char	**retour;

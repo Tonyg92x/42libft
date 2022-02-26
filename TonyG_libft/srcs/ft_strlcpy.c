@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:37:36 by aguay             #+#    #+#             */
-/*   Updated: 2021/09/27 09:08:13 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:37:59 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Copie char from src to dest size time and '\0' the end.
+//	Copy char's from src to dest (size time) and put '\0' the end.
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	size_t	i;

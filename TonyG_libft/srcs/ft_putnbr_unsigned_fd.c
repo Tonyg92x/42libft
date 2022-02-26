@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_unsigned_fd.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:44:56 by aguay             #+#    #+#             */
-/*   Updated: 2021/11/03 11:03:43 by aguay            ###   ########.fr       */
+/*   Updated: 2022/02/26 13:43:52 by tonyg            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Ecrit dans fd un unsigned int n.
+//	Fonction that write the unsigned integer entered in the fd entered.
 void	ft_putnbr_unsigned_fd(unsigned int n, int fd)
 {
 	int		i;
