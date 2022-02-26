@@ -50,10 +50,120 @@
         <li>
       <a href="#ft_isdigit">ft_isdigit</a>
     </li>
-        <li>
+    <li>
       <a href="#ft_isprint">ft_isprint</a>
     </li>
-    
+    <li>
+      <a href="#ft_itoa">ft_itoa</a>
+    </li>
+    <li>
+      <a href="#ft_itol">ft_itol</a>
+    </li>
+    <li>
+      <a href="#ft_memchr">ft_memchr</a>
+    </li>
+    <li>
+      <a href="#ft_memcmp">ft_memcmp</a>
+    </li>
+    <li>
+      <a href="#ft_memcpy">ft_memcpy</a>
+    </li>
+    <li>
+      <a href="#ft_memmove">ft_memmove</a>
+    </li>
+    <li>
+      <a href="#ft_memset">ft_memset</a>
+    </li>
+    <li>
+      <a href="#ft_print_chars">ft_print_chars</a>
+    </li>
+    <li>
+      <a href="#ft_print_dui">ft_print_dui</a>
+    </li>
+    <li>
+      <a href="#ft_printf">ft_printf</a>
+    </li>
+    <li>
+      <a href="#ft_push">ft_push</a>
+    </li>
+    <li>
+      <a href="#ft_putchar_fd">ft_putchar_fd</a>
+    </li>
+    <li>
+      <a href="#ft_putendl_fd">ft_putendl_fd</a>
+    </li>
+    <li>
+      <a href="#ft_puthex">ft_puthex</a>
+    </li>
+    <li>
+      <a href="#ft_putnbr_fd">ft_putnbr_fd</a>
+    </li>
+    <li>
+      <a href="#ft_putnbr_unsigned_fd">ft_putnbr_unsigned_fd</a>
+    </li>
+    <li>
+      <a href="#ft_putset_fd">ft_putset_fd</a>
+    </li>
+    <li>
+      <a href="#ft_reverse_rotate">ft_reverse_rotate</a>
+    </li>
+    <li>
+      <a href="#ft_rotate">ft_rotate</a>
+    </li>
+    <li>
+      <a href="#ft_split">ft_split</a>
+    </li>
+    <li>
+      <a href="#ft_strchr">ft_strchr</a>
+    </li>
+    <li>
+      <a href="#ft_strdup">ft_strdup</a>
+    </li>
+    <li>
+      <a href="#ft_striteri">ft_striteri</a>
+    </li>
+    <li>
+      <a href="#ft_strjoin">ft_strjoin</a>
+    </li>
+    <li>
+      <a href="#ft_strlcat">ft_strlcat</a>
+    </li>
+    <li>
+      <a href="#ft_strlcpy">ft_strlcpy</a>
+    </li>
+    <li>
+      <a href="#ft_strlen">ft_strlen</a>
+    </li>
+    <li>
+      <a href="#ft_strmapi">ft_strmapi</a>
+    </li>
+    <li>
+      <a href="#ft_strncmp">ft_strncmp</a>
+    </li>
+    <li>
+      <a href="#ft_strnstr">ft_strnstr</a>
+    </li>
+    <li>
+      <a href="#ft_strrchr">ft_strrchr</a>
+    </li>
+    <li>
+      <a href="#ft_strtrim">ft_strtrim</a>
+    </li>
+    <li>
+      <a href="#ft_substr">ft_substr</a>
+    </li>
+    <li>
+      <a href="#ft_swap">ft_swap</a>
+    </li>
+    <li>
+      <a href="#ft_tolower">ft_tolower</a>
+    </li>
+    <li>
+      <a href="#ft_toupper">ft_toupper</a>
+    </li>
+    <li>
+      <a href="#ft_utoa">ft_utoa</a>
+    </li>
     <li>
       <a href="#Corrections">Corrections</a>
     </li>
