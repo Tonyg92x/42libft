@@ -181,7 +181,7 @@
 
 <!-- FT_ATOI -->
  ## ft_atoi
- <p align="center">
+ <p align="left">
    Convert a string containing an integer number to an integer.
 
 <!-- FT_BZERO -->
