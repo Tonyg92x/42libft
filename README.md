@@ -70,7 +70,7 @@ git clone git@github.com:Tonyg92x/42libft.git
 <!-- DATA-CONVERSION -->
 ## Data-conversion
 <p align="left">
-  <h3> ft_atoi (int ft_atoi(const char *str))</h3>
+  <h3> int ft_atoi(const char *str)</h3>
   Convert a string containing an integer number to an integer.
   
 <!-- STRING-MANIPULATION -->
