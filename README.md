@@ -27,7 +27,7 @@
       <a href="#installation">Installation</a>
     </li>
      <li>
-      <a href="#Data-convertion">Data-convertion</a>
+      <a href="#Data-conversion">Data-conversion</a>
     </li>
     <li>
       <a href="#String-manipulation">String-manipulation</a>
@@ -67,7 +67,7 @@
 ```markdown
 git clone git@github.com:Tonyg92x/42libft.git
 ```
-<!-- DATA-CONVERTION -->
+<!-- DATA-CONVERSION -->
 ## Data-conversion
 <p align="left">
   xxxx
