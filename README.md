@@ -62,7 +62,7 @@
  <!-- INSTALLATION -->
 ## Installation
 ```markdown
-git@github.com:Tonyg92x/42libft.git
+git clone git@github.com:Tonyg92x/42libft.git
 ```
  
  <!-- CORRECTIONS -->
