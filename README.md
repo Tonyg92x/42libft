@@ -67,10 +67,11 @@
 
  <!-- INSTALLATION -->
 ## Installation
-  allo
+  Copy the repository in the project you want to use the library.
 ```markdown
 git clone git@github.com:Tonyg92x/42libft.git
 ```
+  Then all you got to do to have the libft.a file is to execute the command make in the folder. You can then compile your'e project with the libft.a and it will give you every fonction in the library.
 <!-- DATA-CONVERSION -->
 ## Data-conversion
 <details>
