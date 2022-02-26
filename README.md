@@ -86,7 +86,8 @@ git clone git@github.com:Tonyg92x/42libft.git
   
 <!-- STRING-MANIPULATION -->
 ## String-manipulation
-<p align="left">
+<details>
+  <summary>Fonctions</summary>
   <h3>ft_toupper</h3>
   Put the letter entered in uppercase. If it's already uppercase or it isnt a letter, do nothing.
   
@@ -131,32 +132,42 @@ git clone git@github.com:Tonyg92x/42libft.git
   
   <h3>ft_strmapi</h3>
   Pass every character of the string s in the f contion. Return the result in a allocated string using malloc, so don't forget to free.
-
+</details>
   
 <!-- MEMORY-ALLOCATION -->
 ## Memory-allocation
-<p align="left">
-  xxxx
+<details>
+  <summary>Fonctions</summary>
   
+</details>
+
 <!-- MEMORY_MANIPULATION -->
 ## Memory_manipulation
-<p align="left">
-  xxxx
+<details>
+  <summary>Fonctions</summary>
+  
+</details>
   
 <!-- FILE-DESCRIPTOR-TOOLS -->
 ## File-descriptor-tools
-<p align="left">
-  xxxx
+<details>
+  <summary>Fonctions</summary>
+  
+</details>
   
 <!-- CHARACTER-VALIDATION -->
 ## Character-validation
-<p align="left">
-  xxxx
+<details>
+  <summary>Fonctions</summary>
+  
+</details>
   
 <!-- PRINTF -->
 ## Printf
-<p align="left">
-  xxxx
+<details>
+  <summary>Fonctions</summary>
+  
+</details>
  
  <!-- CORRECTIONS -->
 ## Corrections
