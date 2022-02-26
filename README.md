@@ -98,7 +98,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   Put the letter entered in lowercase. If it's already in lowercase or it isnt a letter, do nothing.
   
   <h3>ft_strlen</h3>
-  Return the length of the strin entered.
+  Return the length of the string entered.
   
   <h3>ft_strchr</h3>
   Return a pointer of the first occurence of c in s else return NULL.
