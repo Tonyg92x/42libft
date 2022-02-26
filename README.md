@@ -30,6 +30,31 @@
       <a href="#ft_atoi">ft_atoi</a>
     </li>
     <li>
+      <a href="#ft_bzero">ft_bzero</a>
+    </li>
+    <li>
+      <a href="#ft_calloc">ft_calloc</a>
+    </li>
+    <li>
+      <a href="#ft_free2d">ft_free2d</a>
+    </li>
+    <li>
+      <a href="#ft_isalnum">ft_isalnum</a>
+    </li>    
+    <li>
+      <a href="#ft_isaplha">ft_isalpha</a>
+    </li>
+        <li>
+      <a href="#ft_isascii">ft_isacii</a>
+    </li>
+        <li>
+      <a href="#ft_isdigit">ft_isdigit</a>
+    </li>
+        <li>
+      <a href="#ft_isprint">ft_isprint</a>
+    </li>
+    
+    <li>
       <a href="#Corrections">Corrections</a>
     </li>
     <li>
@@ -47,7 +72,47 @@
 <!-- FT_ATOI -->
  ## ft_atoi
  <p align="center">
-   ft_atoi.c
+   Convert a string containing an integer number to an integer.
+
+<!-- FT_BZERO -->
+ ## ft_bzero
+ <p align="center">
+   xxxxx
+   
+<!-- FT_CALLOC -->
+ ## ft_calloc
+ <p align="center">
+   xxxxx
+   
+<!-- FT_FREE2D -->
+ ## ft_free2d
+ <p align="center">
+   xxxxx
+   
+<!-- FT_ISALNUM -->
+ ## ft_isalnum
+ <p align="center">
+   xxxxx
+   
+<!-- FT_ISALPHA -->
+ ## ft_isalpha
+ <p align="center">
+   xxxxx
+   
+<!-- FT_ISASCII -->
+ ## ft_isascii
+ <p align="center">
+   xxxxx
+
+<!-- FT_ISDIGIT -->
+ ## ft_isdigit
+ <p align="center">
+   xxxxx
+   
+<!-- FT_ISPRINT -->
+ ## ft_isprint
+ <p align="center">
+   xxxxx
 
  <!-- INSTALLATION -->
 ## Installation
