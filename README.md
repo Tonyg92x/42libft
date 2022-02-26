@@ -68,7 +68,6 @@
 git clone git@github.com:Tonyg92x/42libft.git
 ```
 <!-- DATA-CONVERSION -->
-## Data-conversion
 <details>
   <summary>Data-conversion</summary>
   <h3>ft_atoi</h3>
