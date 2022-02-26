@@ -48,6 +48,9 @@
       <a href="#Character-validation">Character-validation</a>
     </li>
     <li>
+      <a href="#Linked-list">Linked-list</a>
+    </li>
+    <li>
       <a href="#Corrections">Corrections</a>
     </li>
     <li>
