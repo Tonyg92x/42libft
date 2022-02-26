@@ -93,7 +93,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   xxxx
   
 <!-- CHARACTER-VALIDATION -->
-## Character-Validation
+## Character-validation
 <p align="left">
   xxxx
   
