@@ -69,7 +69,7 @@ git clone git@github.com:Tonyg92x/42libft.git
 ```
 <!-- DATA-CONVERSION -->
 <details>
-  <summary>## Data-conversion</summary>
+  ## Data-conversion<summary>Data-conversion</summary>
   <h3>ft_atoi</h3>
   Convert a string containing an integer number to an integer.
  
