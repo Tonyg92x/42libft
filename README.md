@@ -33,13 +33,13 @@
       <a href="#String-manipulation">String-manipulation</a>
     </li>
     <li>
-      <a href="#Memory-allocation">Memory-Allocation</a>
+      <a href="#Memory-allocation">Memory-allocation</a>
     </li>
     <li>
       <a href="#Memory-manipulation">Memory-manipulation</a>
     </li>    
     <li>
-      <a href="#File-Descriptor-tools">File_Descriptor-tools</a>
+      <a href="#File-descriptor-tools">File_descriptor-tools</a>
     </li>
     <li>
       <a href="#Printf">Printf</a>
@@ -88,7 +88,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   xxxx
   
 <!-- FILE-DESCRIPTOR-TOOLS -->
-## File-Descriptor-Tools
+## File-descriptor-tools
 <p align="left">
   xxxx
   
