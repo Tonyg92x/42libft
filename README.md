@@ -173,7 +173,7 @@ git clone git@github.com:Tonyg92x/42libft.git
   <h3>ft_memcmp</h3>
   Compare the value of the first index of s1 with the same index of s2. Return 0 if they are the same, and s1[byte] - s2[byte] otherwise.
   
-  <h3>ft_memcmp</h3>
+  <h3>ft_memcmr</h3>
   Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
 </details>
   
