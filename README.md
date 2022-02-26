@@ -176,8 +176,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
-  This is a 42 project to learn c programming. The goal is to remake a basic library for C programming. After every project, new fonctions will get added to this library to have a rich C programming library at the end of my cursus at 42.
+<p align="left">
+  This is my c programming language library. Almost every fonction in it is made by myself. I want to update it with fonction that I used in programs that might be usefull in other situations.
 
 <!-- FT_ATOI -->
  ## ft_atoi
