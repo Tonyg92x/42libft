@@ -187,227 +187,227 @@
 <!-- FT_BZERO -->
  ## ft_bzero
  <p align="center">
-   xxxxx
+   Put the value '\0' n time in the pointer entered.
    
 <!-- FT_CALLOC -->
  ## ft_calloc
  <p align="center">
-   xxxxx
+   Allocate memory with the malloc fonction; allocate size (in byte) * count (nomber of element). Put the value '\0' on everything after.
    
 <!-- FT_FREE2D -->
  ## ft_free2d
  <p align="center">
-   xxxxx
+   Free every adresse entered in the pointer of pointers, then free the pointer of pointers.
    
 <!-- FT_ISALNUM -->
  ## ft_isalnum
  <p align="center">
-   xxxxx
+   Return 1 (true) if the character entered is a letter or a digit. Return 0 (false) otherwise.
    
 <!-- FT_ISALPHA -->
  ## ft_isalpha
  <p align="center">
-   xxxxx
+   Return 1 (true) if the character entered is a letter. Return 0 (false) otherwise.
    
 <!-- FT_ISASCII -->
  ## ft_isascii
  <p align="center">
-   xxxxx
+   Return 1 (true) if the character entered is in the ASCII table. Return 0 (false) otherwise.
 
 <!-- FT_ISDIGIT -->
  ## ft_isdigit
  <p align="center">
-   xxxxx
+   Return 1 (true) if the character entered is a number. Return 0 (false) otherwise.
    
 <!-- FT_ISPRINT -->
  ## ft_isprint
  <p align="center">
-   xxxxx
+   Return 1 (true) if the character entered is printable. Return 0 (false) otherwise.
 
 <!-- FT_ITOA -->
  ## ft_itoa
  <p align="center">
-   xxxxx
+   Take the integer entered and put the value in a string as multiple characters. Return a pointer to that string that is allocated with malloc (don't forget to free to avoid leaks)
    
 <!-- FT_ITOL -->
  ## ft_itol
  <p align="center">
-   xxxxx
+   Take the integer entered and convert it into a long variable. (It's pretty usefull to test integer limits)
    
 <!-- FT_MEMCHR -->
  ## ft_memchr
  <p align="center">
-   xxxxx
+   Locate the first location of the occurence c in the string s. Look for it n time. Return a pointer to the location, otherwise return NULL.
 
 <!-- FT_MEMCMP -->
  ## ft_memcmp
  <p align="center">
-   xxxxx
+   Compare the value of the first index of s1 with the same index of s2. Return 0 if they are the same, and s1[byte] - s2[byte] otherwise.
    
 <!-- FT_MEMCPY -->
  ## ft_memcpy
  <p align="center">
-   xxxxx
+   Copy n bytes of src pointer into dst pointer. Return the pointer to the dst pointer. Protected from overlaping.
    
 <!-- FT_MEMMOVE -->
  ## ft_memmove
  <p align="center">
-   xxxxx
+   Same as memcpy, but it is not protected from overlaping.
    
 <!-- FT_MEMSET -->
  ## ft_memset
  <p align="center">
-   xxxxx
+   Write len number of time of value c in the string b.
    
 <!-- FT_PRINT_CHARS -->
  ## ft_print_chars
  <p align="center">
-   xxxxx
+   Fonction that is used but printf to print characters.
    
 <!-- FT_PRINT_DUI -->
  ## ft_print_dui
  <p align="center">
-   xxxxx
+   Fonction that is used by printf to print integers.
    
 <!-- FT_PRINTF -->
  ## ft_printf
  <p align="center">
-   xxxxx
+   Home made printf fonction. Git Repo : https://github.com/Tonyg92x/42printf
    
 <!-- FT_PUSH -->
  ## ft_push
  <p align="center">
-   xxxxx
+   Fonction's used in the push_swap program. Linked lists fonctions, might be usefull later. Need to update for project that can use more then 2 lists.
    
 <!-- FT_PUTCHAR_FD -->
  ## ft_putchar_fd
  <p align="center">
-   xxxxx
+   Write the character c in the fd entered.
    
 <!-- FT_PUTENDL_FD -->
  ## ft_putendl_fd
  <p align="center">
-   xxxxx
+   Write the string s in the fd entered, then put a new line at the end.
    
 <!-- FT_PUTHEX -->
  ## ft_puthex
  <p align="center">
-   xxxxx
+   Fonction that is used by printf to print hexadecimals values.
    
 <!-- FT_PUTNBR_FD -->
  ## ft_putnbr_fd
  <p align="center">
-   xxxxx
+   Fonction that write the integer entered in the fd entered.
    
 <!-- FT_PUTNBR_UNSIGNED_FD -->
  ## ft_putnbr_unsigned_fd
  <p align="center">
-   xxxxx
+   Fonction that write the unsigned integer entered in the fd entered.
    
 <!-- FT_PUTSTR_FD -->
  ## ft_putstr_fd
  <p align="center">
-   xxxxx
+   Fonction that write the string entered in the fd entered.
    
 <!-- FT_REVERSE_ROTATE -->
  ## ft_reverse_rotate
  <p align="center">
-   xxxxx
+   Linked list fonction that shift down every element in a list. The last element become the first one. Might need to update it.
    
 <!-- FT_ROTATE -->
  ## ft_rotate
  <p align="center">
-   xxxxx
+   Linked list fonction that shift up every element in a list. The first element become the last one. Might need to update it.
    
 <!-- FT_SPLIT -->
  ## ft_split
  <p align="center">
-   xxxxx
+   Split the string between c character in multiple strings. The return is a pointer that has every pointer of every string made. The memory is allocated by malloc, in 2D so don't forget to ft_free2d.
    
 <!-- FT_STRCHR -->
  ## ft_strchr
  <p align="center">
-   xxxxx
+   Return a pointer of the first occurence of c in s else return NULL.
    
 <!-- FT_STRDUP -->
  ## ft_strdup
  <p align="center">
-   xxxxx
+   Allocate exactly the right amount of space src string into an other string using the malloc fonction. Don't forget to free. (Usefull if you want to use the less amount of memory possible.
    
 <!-- FT_STRITERI -->
  ## ft_striteri
  <p align="center">
-   xxxxx
+   Pass the s string into the f fonction.
    
 <!-- FT_STRJOIN -->
  ## ft_strjoin
  <p align="center">
-   xxxxx
+   Join s1 and s2 strings together. The value return is allocated with the malloc fonction so don't forget to free.
    
 <!-- FT_STRLCAT -->
  ## ft_strlcat
  <p align="center">
-   xxxxx
+   Put the string src at the end of string dst. Return the size of the dst string after.  
    
 <!-- FT_STRLCPY -->
  ## ft_strlcpy
  <p align="center">
-   xxxxx
+   Copie char from src to dest size time and put '\0' the end.
    
 <!-- FT_STRLEN -->
  ## ft_strlen
  <p align="center">
-   xxxxx
+   Return the length of the strin entered.
    
  <!-- FT_STRMAPI -->
  ## ft_strmapi
  <p align="center">
-   xxxxx
+   Pass every character of the string s in the f contion. Return the result in a allocated string using malloc, so don't forget to free.
    
 <!-- FT_STRNCMP -->
  ## ft_strncmp
  <p align="center">
-   xxxxx
+   Compare s1 with s2 for n character. Return 0 if it's the same, if not return the s1 - s2 value of the dif.
    
 <!-- FT_STRNSTR -->
  ## ft_strnstr
  <p align="center">
-   xxxxx
+   Look for needle str in haystack for len. If needle is there, return a pointer to it else return NULL pointer.
    
 <!-- FT_STRRCHR -->
  ## ft_strrchr
  <p align="center">
-   xxxxx
+    Locate the last occurence of c in the string pointed by s. The '\0' is considered a part of the string so if c = '\0' the function locate the terminating '\0'.
    
 <!-- FT_STRTRIM -->
  ## ft_strtrim
  <p align="center">
-   xxxxx
+   Remove every character (that is in set) of the s1 string. Return a new string with the result allocated with malloc, so don't forget to free it.
    
 <!-- FT_SUBSTR -->
  ## ft_substr
  <p align="center">
-   xxxxx
+   Return a new string, that has the content of s string, starting at the start argument as index. The new string is allocated with malloc so don't forget to free it.
    
 <!-- FT_SWAP -->
  ## ft_swap
  <p align="center">
-   xxxxx
+   Linked-listed fonction that swap the first element of a list with the second. Might need to update it.
    
 <!-- FT_TOLOWER -->
  ## ft_tolower
  <p align="center">
-   xxxxx
+   Put the letter entered in lowercase. If it's already in lowercase or it isnt a letter, do nothing.
    
 <!-- FT_TOUPPER -->
  ## ft_toupper
  <p align="center">
-   xxxxx
+  Put the letter entered in uppercase. If it's already uppercase or it isnt a letter, do nothing.
    
 <!-- FT_UTOA -->
  ## ft_utoa
  <p align="center">
-   xxxxx
+   Take the unsigned int entered and put it's char value in a string. The string returned is allocated with malloc so don't forget to free it.
 
  <!-- INSTALLATION -->
 ## Installation
