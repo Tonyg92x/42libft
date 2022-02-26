@@ -70,13 +70,13 @@ git clone git@github.com:Tonyg92x/42libft.git
 <!-- DATA-CONVERSION -->
 ## Data-conversion
 <p align="left">
-  <B
+  <h3> ft_atoi</h3>
+  Convert a string containing an integer number to an integer.
   
 <!-- STRING-MANIPULATION -->
 ## String-manipulation
 <p align="left">
-  <h1> ft_atoi</h1>
-  salut
+
   
 <!-- MEMORY-ALLOCATION -->
 ## Memory-allocation
