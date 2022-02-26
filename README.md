@@ -12,7 +12,7 @@
 <h3 align="center">libft</h3>
 
   <p align="center">
-    Home made c library for basic functions.
+    My personnal C programming language library.
   </p>
 </div>
 
