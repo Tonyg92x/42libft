@@ -36,7 +36,7 @@
       <a href="#Memory-management">Memory-management</a>
     </li>
     <li>
-      <a href="#Memory_manipulation">Memory_manipulation</a>
+      <a href="#Memory-manipulation">Memory-manipulation</a>
     </li>    
     <li>
       <a href="#File-descriptor-tools">File-descriptor-tools</a>
@@ -155,8 +155,8 @@ git clone git@github.com:Tonyg92x/42libft.git
 
 </details>
 
-<!-- MEMORY_MANIPULATION -->
-## Memory_manipulation
+<!-- MEMORY-MANIPULATION -->
+## Memory-manipulation
 <details>
   <summary>Fonctions</summary>
   
