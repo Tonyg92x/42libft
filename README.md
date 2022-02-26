@@ -36,7 +36,7 @@
       <a href="#Memory-management">Memory-management</a>
     </li>
     <li>
-      <a href="#Memory-manipulation">Memory-manipulation</a>
+      <a href="#Memory_manipulation">Memory_manipulation</a>
     </li>    
     <li>
       <a href="#File-descriptor-tools">File-descriptor-tools</a>
