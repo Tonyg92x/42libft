@@ -63,7 +63,7 @@
 ## About The Project
 
 <p align="left">
-  This is my c programming language library. Almost every fonction in it is made by myself. I want to update it with fonction that I used in programs that might be usefull in other situations.
+  This is my c programming language library.
 
  <!-- INSTALLATION -->
 ## Installation
