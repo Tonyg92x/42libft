@@ -6,7 +6,7 @@
 #    By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/31 08:51:26 by mmondell          #+#    #+#              #
-#    Updated: 2022/02/26 08:34:28 by tonyg            ###   ########.fr        #
+#    Updated: 2022/02/28 08:44:57 by aguay            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ NAME 			= libft.a
 
 ## ----- CHOOSE COMPILER AND FLAGS ----- ##
 CC				= gcc
-CFLAGS			= -Wall -Wextra -C ##  Add -Werror on mac
+CFLAGS			= -Wall -Wextra -Werror -c
 
 ## ----- PATH TO FOLDERS ----- ##
 SRCS_DIR		= srcs/
@@ -122,6 +122,7 @@ obj:
 clean:
 	$(RM) $(OBJS) $(B_OBJS)
 	@rm -rf $(OBJ_DIR)
+	clear
 fclean: clean
 	@rm -f $(NAME)
 
