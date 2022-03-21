@@ -51,7 +51,7 @@
       <a href="#Linked-list">Linked-list</a>
     </li>
     <li>
-      <a href="$ft_gnl">ft_gnl</a>
+      <a href="#ft_gnl">ft_gnl</a>
     </li>
     <li>
       <a href="#Corrections">Corrections</a>
@@ -262,7 +262,7 @@ git clone git@github.com:Tonyg92x/42libft.git
 
   <!-- GET_NEXT_LINE -->
 ## ft_gnl
-  Return the next line in a file.
+  Return the next line in a file that has to be open.
 
  <!-- CORRECTIONS -->
 ## Corrections
