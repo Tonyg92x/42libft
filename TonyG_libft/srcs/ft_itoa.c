@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
+/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/20 14:52:44 by aguay             #+#    #+#             */
-/*   Updated: 2022/02/26 13:34:08 by tonyg            ###   ########.fr       */
+/*   Updated: 2022/03/21 08:57:38 by aguay            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,8 +88,8 @@ static char	*limit_check(int n)
 	return (NULL);
 }
 
-
-//	Take the integer entered and put the value in a string as multiple characters.
+//	Take the integer entered and put the value
+//	in a string as multiple characters.
 //	Free alert
 char	*ft_itoa(int n)
 {

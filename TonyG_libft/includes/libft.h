@@ -6,7 +6,7 @@
 /*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:38:26 by aguay             #+#    #+#             */
-/*   Updated: 2022/03/21 08:48:04 by aguay            ###   ########.fr       */
+/*   Updated: 2022/03/21 08:56:08 by aguay            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,12 +102,12 @@ int			ft_print_dui(va_list s, int count, char type, int *retour);
 int			ft_print_chars(va_list s, int count, char type, int *retour);
 
 // Get_next_line
-char	*get_next_line(int fd);
-char	*ft_get(char *buffer, int *len, int fd, char *retour);
-bool	ft_protection(char **buffer, char **retour, int *count_retour);
-#ifndef BUFFER_SIZE
-# define	BUFFER_SIZE 100
-#endif
+char		*get_next_line(int fd);
+char		*ft_get(char *buffer, int *len, int fd, char *retour);
+bool		ft_protection(char **buffer, char **retour, int *count_retour);
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 100
+# endif
 
 // Linked-list fonctions (gonna be rework for more flexibility with fonctions)
 

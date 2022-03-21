@@ -3,17 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+        */
+/*   By: aguay <aguay@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 11:36:55 by aguay             #+#    #+#             */
-/*   Updated: 2022/02/26 13:31:50 by tonyg            ###   ########.fr       */
+/*   Updated: 2022/03/21 08:58:23 by aguay            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//	Compare the value of the first index of s1 with the same index of s2. Return 0
-//	if they are the same, and s1[byte] - s2[byte] otherwise.
+//	Compare the value of the first index of s1 with
+//	the same index of s2. Return 0 if they are the
+//	same, and s1[byte] - s2[byte] otherwise.
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	size_t	i;
