@@ -51,7 +51,7 @@
       <a href="#Linked-list">Linked-list</a>
     </li>
     <li>
-      <a href="$Get_next_line">Get_next_line</a>
+      <a href="$ft_gnl">ft_gnl</a>
     </li>
     <li>
       <a href="#Corrections">Corrections</a>
@@ -261,8 +261,7 @@ git clone git@github.com:Tonyg92x/42libft.git
 </details>
 
   <!-- GET_NEXT_LINE -->
-## Get_next_line
- <h3>ft_gnl</h3>
+## ft_gnl
   Return the next line in a file.
 
  <!-- CORRECTIONS -->
