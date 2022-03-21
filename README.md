@@ -51,6 +51,9 @@
       <a href="#Linked-list">Linked-list</a>
     </li>
     <li>
+      <a href="$Get_next_line">Get_next_line</a>
+    </li>
+    <li>
       <a href="#Corrections">Corrections</a>
     </li>
     <li>
@@ -256,6 +259,11 @@ git clone git@github.com:Tonyg92x/42libft.git
 <h3>ft_swap</h3>
   Linked-listed fonction that swap the first element of a list with the second. Might need to update it.
 </details>
+
+  <!-- GET_NEXT_LINE -->
+## Get_next_line
+ <h3>ft_gnl</h3>
+  Return the next line in a file.
 
  <!-- CORRECTIONS -->
 ## Corrections
