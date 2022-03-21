@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: tonyg <tonyg@student.42.fr>                +#+  +:+       +#+         #
+#    By: aguay <aguay@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/31 08:51:26 by mmondell          #+#    #+#              #
-#    Updated: 2022/02/28 08:44:57 by aguay            ###   ########.fr        #
+#    Updated: 2022/03/21 08:46:49 by aguay            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,6 +36,8 @@ SRCS_FILES		= 					\
 			ft_bzero.c				\
 			ft_calloc.c				\
 			ft_free2d.c				\
+			ft_gnl_utils.c			\
+			ft_gnl.c				\
 			ft_isalnum.c			\
 			ft_isalpha.c			\
 			ft_isascii.c			\
